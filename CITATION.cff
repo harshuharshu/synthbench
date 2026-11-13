@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use synthbench, the reference sets or the derived metrics, please cite it as below."
+title: "synthbench: a makeability benchmark for synthesizability scores"
+abstract: >-
+  Synthesizability scores gate most generative and virtual-screening workflows,
+  and are evaluated against negative sets of computer-enumerated molecules that
+  no chemist has attempted. synthbench evaluates any scorer against six
+  reference sets whose makeability is known from provenance rather than from a
+  score, spanning purchasable compounds, make-on-demand compounds of stated step
+  count, a library demonstrated experimentally to be one aza-Diels-Alder step
+  from commercial building blocks, bioactive compounds of unknown route length,
+  fragment recombination products never made, and enumerated strained cages. It
+  reports four quantities: makeability AUC with per-set weighting, dependence on
+  the easy negative class, a hard-case comparison between one-step and never-made
+  molecules, and the margin over a nearest-neighbour similarity baseline. On
+  these sets that trivial baseline reaches AUC 0.785 and outperforms SAscore
+  0.691, SCScore 0.352, RAscore 0.647 and BR-SAScore 0.706; removing a single
+  easy negative class moves every published score below chance; and on the
+  57-molecule subset confirmed by synthesis and assay every method is inverted.
+  The benchmark is diagnostic and supplies no improved score.
+authors:
+  - family-names: "Tiwari"
+    given-names: "Harshita"
+version: "1.0.0"
+license: MIT
+repository-code: "https://github.com/harshuharshu/synthbench"
+keywords:
+  - cheminformatics
+  - synthesizability
+  - synthetic accessibility
+  - retrosynthesis
+  - benchmark
+  - de novo design

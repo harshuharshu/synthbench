@@ -1,0 +1,6 @@
+scorer,makeability_auc,ci_low,ci_high,auc_without_easy_negative,easy_negative_dependence,hard_case_auc,confirmed_subset_auc,drop_GDB17,drop_BRICS,set_dependence_spread
+sascore,0.691,0.687,0.696,0.401,0.29,0.017,0.044,0.401,0.981,0.58
+scscore,0.352,0.346,0.358,0.464,-0.112,0.266,0.162,0.464,0.24,0.238
+rascore,0.647,0.642,0.651,0.491,0.156,0.016,0.026,0.491,0.803,0.318
+brsascore,0.706,0.702,0.71,0.418,0.287,0.001,0.011,0.418,0.993,0.575
+catalogue_sim,0.785,0.781,0.789,0.611,0.174,0.295,0.226,0.611,0.959,0.348

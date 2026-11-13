@@ -1,0 +1,8 @@
+scorer,kind,makeability_auc,ci_low,ci_high
+catalogue_sim,baseline,0.787,0.782,0.791
+brsascore,published,0.706,0.701,0.709
+sascore,published,0.693,0.689,0.697
+rascore,published,0.648,0.644,0.653
+scscore,published,0.353,0.347,0.359
+heavy_atoms,baseline,0.31,0.305,0.314
+descriptor_loso,baseline,0.119,0.115,0.124
