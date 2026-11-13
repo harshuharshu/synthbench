@@ -3,9 +3,10 @@ requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "synthbench"
+name = "makeability-bench"
 version = "1.0.0"
 description = "A makeability benchmark for synthesizability scores, built from reference sets of known provenance"
+# The distribution is published as makeability-bench; the import name is synthbench.
 readme = "README.md"
 requires-python = ">=3.9"
 license = { text = "MIT" }

@@ -9,8 +9,10 @@ outperforms all four published scores tested, and all four fall below chance onc
 negative class is removed.
 
 ```
-pip install synthbench
+pip install makeability-bench
 ```
+
+The distribution is `makeability-bench`; the import name is `synthbench`.
 
 ## Sixty seconds
 
